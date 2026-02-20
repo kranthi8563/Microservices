@@ -15,8 +15,8 @@ spec:
         app: api-gateway
     spec:
       containers:
-        - name: api-gateway
-          image: api-gateway:1.0
-          imagePullPolicy: Never
-          ports:
-            - containerPort: 8080
+      - name: api-gateway
+        image: kranthireddy8563/api-gateway:latest
+        imagePullPolicy: Always
+        ports:
+          - containerPort: 8080
