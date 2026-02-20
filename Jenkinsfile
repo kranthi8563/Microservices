@@ -11,7 +11,7 @@ pipeline {
             steps {
                 echo "Checking out source code..."
                 git branch: 'main',
-                    url: 'https://github.com/<your-username>/microservices-project.git'
+                    url: 'https://github.com/kranthi8563/Microservices.git'
             }
         }
 
