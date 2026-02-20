@@ -11,7 +11,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 git branch: 'main',
-                    url: 'https://github.com/kranthireddy8563/Microservices.git'
+                    url: 'https://github.com/kranthi8563/Microservices.git'
             }
         }
 
